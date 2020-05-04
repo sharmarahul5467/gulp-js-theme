@@ -1,0 +1,16 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $text-color;
+  font: normal 15px / 1.4 $text-font-stack;
+  font-weight: 400;
+}
+
+a{
+  &:hover , &:focus  {
+    text-decoration: none;
+    color : inherit;
+    
+  }
+}

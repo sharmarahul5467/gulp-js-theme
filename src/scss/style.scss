@@ -1,0 +1,31 @@
+/*=======================================
+DO NOT EDIT CSS HERE 
+========================================*/
+
+// abstracts
+@import '_include/abstracts/**/*.scss'; 
+
+// base 
+// @import '_include/base/**/*.scss'; 
+
+
+// vendors
+@import './_include/vendors/bootstrap';  // you have to update gulp file 
+
+// components
+// @import '_include/components/**/*.scss';
+
+
+// layouts
+// @import '_include/layout/**/*.scss'; 
+
+// pages 
+// @import '_include/pages/**/*.scss';
+
+// themes
+// @import '_include/themes/**/*.scss';
+
+
+
+
+// @debug variable-exists("primary-color");

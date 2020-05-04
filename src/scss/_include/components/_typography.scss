@@ -1,0 +1,30 @@
+.heading {
+  text-align: center;
+  position: relative;
+  margin-bottom: 30px;
+  font-size: 15px;
+  font-weight: 800;
+  color: #000;
+  // @include gradient-text;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    background: $theme-color;
+    // @include gradient-bg;
+    bottom: -10px;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+  // background: -webkit-linear-gradient(#eee, #333);
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  &-title {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    
+  }
+}

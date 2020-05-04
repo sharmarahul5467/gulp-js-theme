@@ -1,0 +1,63 @@
+.download-app {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  @media (min-width: $breakpoints-md) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  &__logo {
+    max-width: 100%;
+    // width: 90%;
+    display: flex;
+    align-self: center;
+    @media (min-width: $breakpoints-md) {
+      align-self: flex-start;
+    }
+  }
+  &__col {
+    &-1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      // align-items: center;
+    }
+    &-2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+      @media (min-width: $breakpoints-md) {
+        margin-top: 0px;
+        justify-content: flex-end;
+      }
+    }
+  }
+  &__title {
+    font-size: 30px;
+    margin-top: 10px;
+    @media (min-width: $breakpoints-md) {
+      font-size: 48px;
+      margin-top: 10px;
+      // @include gradient-text;
+    }
+  }
+  &__description {
+    font-size: 18px;
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    @media (min-width: $breakpoints-md) {
+      text-align: left;
+    }
+  }
+  &__links {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    @media (min-width: $breakpoints-md) {
+      justify-content: flex-start;
+    }
+  }
+}

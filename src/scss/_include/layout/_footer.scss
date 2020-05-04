@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #ededed;
+
+  &__title {
+    text-align: center;
+    margin: 0px 0 30px;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 2px;
+      @include gradient-bg;
+      bottom: -10px;
+      transform: translateX(-50%);
+      left: 50%;
+    }
+  }
+}
